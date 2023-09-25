@@ -11,12 +11,11 @@ public class Foreach {
 		System.out.println("Quantas notas deseja informar? ");
 		int tam = entrada.nextInt();
 		
-		double[] array = new double[tam];
 		double[] notas = new double[tam];
 		
 		int n=1;
 		double soma=0;
-		for(double cadastrar: array) {
+		for(double cadastrar: notas) {
 			System.out.printf("Informe a %d nota da posicao %d: ", n, i);
 			cadastrar = entrada.nextDouble();
 			notas[i] = cadastrar;
